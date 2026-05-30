@@ -4,7 +4,6 @@ AMI_ID="ami-0220d79f3f480ecf5"
 ZONE_ID="Z08541483BXLDUSK4KJST"
 DOMAIN_NAME="sujitha-daws.online"
 
-
 for instance in $@
 do
     echo "Launching instance: $instance"
@@ -16,6 +15,6 @@ do
         --query 'Instances[0].InstanceId' \
         --output text
     )
-    
+
     echo "Instance ID: $INSTANCE_ID"
 done
