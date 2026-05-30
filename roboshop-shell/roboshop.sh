@@ -17,5 +17,3 @@ do
         --output text
     )
     echo "Instance ID: $INSTANCE_ID"
-
-    
