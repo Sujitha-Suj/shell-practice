@@ -16,5 +16,6 @@ do
         --query 'Instances[0].InstanceId' \
         --output text
     )
+    
     echo "Instance ID: $INSTANCE_ID"
 done
