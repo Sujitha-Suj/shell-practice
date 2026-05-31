@@ -1,8 +1,10 @@
-# !/bin/bash
+#!/bin/bash
+
+#export PATH=$PATH:/usr/local/bin
 
 AMI_ID="ami-0220d79f3f480ecf5"
-ZONE_ID="Z08541483BXLDUSK4KJST"
-DOMAIN_NAME="sujitha-daws.online"
+ZONE_ID="Z08541483BXLDUSK4KJST" # replace with your zone ID
+DOMAIN_NAME="sujitha-daws.online" # replace with your domain name
 R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
@@ -98,3 +100,4 @@ do
         fi
     fi
 done
+
